@@ -14,11 +14,11 @@ local bg = opts.transparent and "NONE" or "#0d1b2a"
 -- minimam
 set(0, "Normal", { fg = "#C8D6E5", bg = bg })
 set(0, "Comment", { fg = "#4A5E6D", italic = true })
-set(0, "CursorLine", { bg = "#141c15" })
-set(0, "LineNr", { fg = "#5f7f62" })
-set(0, "CursorLineNr", { fg = "#5f7f62", bold = true })
-set(0, "Statement", { fg = "#6fbf8a", bold = true })
-set(0, "Keyword", { fg = "#DFAF7F", bold = true })
+set(0, "CursorLine", { bg = "#162C3F" })
+set(0, "LineNr", { fg = "#334759" })
+set(0, "CursorLineNr", { fg = "#334759", bold = true })
+set(0, "Statement", { fg = "#5E9CB5", bold = true })
+set(0, "Keyword", { fg = "#B8876A", bold = true })
 
 -- syntax
 set(0, "String", { fg = "#a8d5a2" })
