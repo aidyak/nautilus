@@ -12,7 +12,7 @@ local opts = config.options
 local bg = opts.transparent and "NONE" or "#0d1b2a"
 
 -- minimam
-set(0, "Normal", { fg = "#d7ffd7", bg = bg })
+set(0, "Normal", { fg = "#C8D6E5", bg = bg })
 set(0, "Comment", { fg = "#5f7f62", italic = true })
 set(0, "CursorLine", { bg = "#141c15" })
 set(0, "LineNr", { fg = "#5f7f62" })
