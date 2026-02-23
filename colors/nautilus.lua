@@ -9,7 +9,7 @@ local set = vim.api.nvim_set_hl
 local config = require("nautilus.config")
 local opts = config.options
 
-local bg = opts.transparent and "NONE" or "#0f1510"
+local bg = opts.transparent and "NONE" or "#0d1b2a"
 
 -- minimam
 set(0, "Normal", { fg = "#d7ffd7", bg = bg })
