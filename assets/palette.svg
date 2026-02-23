@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="monospace">
+  <defs>
+    <style>
+      .label { fill: #C8D6E5; font-size: 13px; }
+      .hex { fill: #4A5E6D; font-size: 11px; }
+      .desc { fill: #6B8A9E; font-size: 11px; }
+      .title { fill: #C8D6E5; font-size: 22px; font-weight: bold; }
+      .subtitle { fill: #4A5E6D; font-size: 13px; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="800" height="520" rx="12" fill="#0D1B2A"/>
+
+  <!-- title -->
+  <text x="40" y="48" class="title">nautilus</text>
+  <text x="40" y="70" class="subtitle">deep sea colorscheme for neovim</text>
+
+  <!-- row 1 -->
+  <rect x="40" y="100" width="80" height="80" rx="8" fill="#0D1B2A" stroke="#334759" stroke-width="1"/>
+  <text x="136" y="128" class="label">深淵の闇</text>
+  <text x="136" y="146" class="hex">#0D1B2A</text>
+  <text x="136" y="164" class="desc">Background — 光の届かない深海</text>
+
+  <rect x="40" y="200" width="80" height="80" rx="8" fill="#C8D6E5"/>
+  <text x="136" y="228" class="label">月光</text>
+  <text x="136" y="246" class="hex">#C8D6E5</text>
+  <text x="136" y="264" class="desc">Normal — 深海に差し込む月明かり</text>
+
+  <rect x="40" y="300" width="80" height="80" rx="8" fill="#4A5E6D"/>
+  <text x="136" y="328" class="label">沈殿</text>
+  <text x="136" y="346" class="hex">#4A5E6D</text>
+  <text x="136" y="364" class="desc">Comment — 海底に沈む泥灰</text>
+
+  <rect x="40" y="400" width="80" height="80" rx="8" fill="#162C3F"/>
+  <text x="136" y="428" class="label">深海棚</text>
+  <text x="136" y="446" class="hex">#162C3F</text>
+  <text x="136" y="464" class="desc">CursorLine — 海底の段差</text>
+
+  <!-- row 2 -->
+  <rect x="420" y="100" width="80" height="80" rx="8" fill="#334759"/>
+  <text x="516" y="128" class="label">海溝壁</text>
+  <text x="516" y="146" class="hex">#334759</text>
+  <text x="516" y="164" class="desc">LineNr — 海溝の岩肌</text>
+
+  <rect x="420" y="200" width="80" height="80" rx="8" fill="#5E9CB5"/>
+  <text x="516" y="228" class="label">海流</text>
+  <text x="516" y="246" class="hex">#5E9CB5</text>
+  <text x="516" y="264" class="desc">Statement — 深海を流れる潮</text>
+
+  <rect x="420" y="300" width="80" height="80" rx="8" fill="#B8876A"/>
+  <text x="516" y="328" class="label">深海珊瑚</text>
+  <text x="516" y="346" class="hex">#B8876A</text>
+  <text x="516" y="364" class="desc">Keyword — 暗闇に佇む珊瑚</text>
+
+  <!-- nautilus shell accent line -->
+  <line x1="40" y1="500" x2="760" y2="500" stroke="#162C3F" stroke-width="1"/>
+</svg>

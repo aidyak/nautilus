@@ -1,4 +1,24 @@
 # 🐚nautilus
-A colorscheme for Neovim inspired by the colors of the sea and the ocean. It features a palette of blues, greens, and purples, with a focus on readability and contrast.
 
-Neovim用のカラースキームで、海やオーシャンの色からインスピレーションを得ています。ブルー、グリーン、パープルのパレットを特徴とし、可読性とコントラストに重点を置いています。
+A deep sea colorscheme for Neovim, inspired by the nautilus dwelling in the abyss.
+
+深海に棲むオウムガイをモチーフにした Neovim 用カラースキーム。
+
+## Palette
+
+<img src="assets/palette.svg" width="800" />
+
+## Installation
+
+```lua
+-- lazy.nvim
+{
+  "aidyak/nautilus",
+  config = function()
+    require("nautilus").setup({
+      transparent = false,
+    })
+    vim.cmd("colorscheme nautilus")
+  end,
+}
+```
