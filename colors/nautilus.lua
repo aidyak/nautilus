@@ -21,7 +21,7 @@ set(0, "Statement", { fg = "#5E9CB5", bold = true })
 set(0, "Keyword", { fg = "#B8876A", bold = true })
 
 -- syntax
-set(0, "String", { fg = "#7CA0B8" })
+set(0, "String", { fg = "#023E8A" })
 set(0, "Number", { fg = "#b7f7c1" })
 set(0, "Boolean", { fg = "#b7f7c1" })
 set(0, "Float", { fg = "#b7f7c1" })
